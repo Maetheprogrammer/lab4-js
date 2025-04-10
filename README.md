@@ -1,28 +1,41 @@
 # Web Solutions Inc. - Interactive Website (Lab 4)
 
-A responsive multi-page website enhanced with JavaScript interactivity, building on our previous HTML/CSS implementation.
-
 ## Group Members
-- ENALA SAISHI 2021463711
-- NEPHAS KANGO 
+- Enala Saishi (2021463711)
+- Nephas Kango 
 
-## Features Implemented
+## Project Description
+A responsive multi-page website demonstrating JavaScript interactivity with:
+- Theme toggling (light/dark mode)
+- Real-time form validation
+- Dynamic content loading
+- Interactive FAQ section
 
-### Core Requirements
--  **Theme Toggle**: Switch between light/dark modes (persists via localStorage)
--  **Form Validation**: Contact form with real-time validation and personalized response
--  **API Integration**: Fetches and displays user data from JSONPlaceholder API
--  **FAQ Component**: Interactive expand/collapse questions with smooth animations
+## Lab 4 Requirements Implemented
 
-### Bonus Feature
--  **Back to Top Button**: Appears when scrolling down, with smooth scrolling
+### JavaScript Features
+- Theme switcher with `localStorage` persistence  
+- Real-time clock display  
+- Contact form validation  
+- Dynamic team member loading  
+- Interactive FAQ toggle  
 
-## Technologies Used
+### CSS Features
+- Responsive design (3 breakpoints)  
+- Flexbox and Grid layouts  
+- CSS animations (`@keyframes`)  
+- Dark/light theme support  
+- Hover/focus transitions  
 
-- **Frontend**: HTML5, CSS3 (Flexbox, Grid, Animations)
-- **Interactivity**: JavaScript (ES6+ features)
-- **API Integration**: Fetch API with async/await
-- **Responsive Design**: Mobile-first approach with media queries
+### HTML Structure
+- 3 complete pages (Home, Services, Contact)  
+- Semantic HTML5 elements  
+- Accessible forms with validation  
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Maetheprogrammer/lab4-js.git
 
 ## File Structure
 lab4-js/
